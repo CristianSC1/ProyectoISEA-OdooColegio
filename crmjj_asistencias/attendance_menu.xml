@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_op_attendance_root" name=" Asistencias" sequence="50"
+            web_icon="crmjj_asistencias,static/description/icon.png" />
+
+
+        <menuitem id="menu_op_attendance_register_sub" name="Registros de asistencia"
+            parent="menu_op_attendance_root" sequence="10"
+            action="act_open_op_attendance_register_view"
+            groups="crmjj_core.group_op_back_office,crmjj_core.group_op_faculty,crmjj_core.group_op_back_office_admin"/>
+
+        <menuitem id="menu_op_attendance_sheet_sub" name="Hojas de asistencia"
+            parent="menu_op_attendance_root" sequence="20"
+            action="act_open_op_attendance_sheet_view"
+            groups="crmjj_core.group_op_back_office,crmjj_core.group_op_faculty,crmjj_core.group_op_back_office_admin"/>
+
+        <menuitem id="menu_op_attendance_line_sub" name="Lineas de asistencia"
+            parent="menu_op_attendance_root" sequence="30"
+            action="act_open_op_attendance_line_view"
+            groups="crmjj_core.group_op_student,crmjj_core.group_op_back_office,crmjj_core.group_op_faculty,crmjj_core.group_op_back_office_admin" />
+        <menuitem id="menu_op_attendance_line_sub_pivot" name="Informe de análisis de asistencia"
+            parent="menu_op_attendance_root" sequence="40"
+            action="act_open_op_attendance_view_pivot" />
+
+    </data>
+</odoo>

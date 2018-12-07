@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <template id="feature_openeducat" inherit_id="website.layout">
+            <xpath expr="//div[@id='wrapwrap']/header/div[hasclass('navbar-static-top')]" position="attributes">
+                <attribute name="class">navbar navbar-default yamm
+                    navbar-static-top
+                </attribute>
+            </xpath>
+            <xpath expr="//ul[@id='top_menu']/li" position="before">
+
+                <li class="dropdown yamm-fw">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span>Caracteristicas</span>
+                        <span class="caret" />
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <div class="yamm-content">
+                            <div class="row features">
+                                <div class="col-md-12 mt16">
+                                    <div class="col-md-12 ">
+                                        <div class="col-md-3 ">
+                                            <ul class="list-unstyled mb32">
+                                                <li class="btm-li-border">
+                                                    <h5>
+                                                        <strong>
+                                                            Nucleo
+                                                        </strong>
+                                                    </h5>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-child i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/student">Estudiante</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-users i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/faculty">Facultad</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-leanpub i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/course">Curso</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-check-square-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/enrollment">Inscripción
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-pencil i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/exam">Examen</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-money i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/financial">Financiero
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <ul class="list-unstyled mb32">
+                                                <li class="btm-li-border">
+                                                    <h5>
+                                                        <strong>
+                                                            Esencial
+                                                        </strong>
+                                                    </h5>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-pencil-square-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/application">Aplicación
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-usd i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/payment">Pago</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-university i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/classroom">Clase</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-calendar i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/timetable">Horario
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-hand-o-up i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/attendance">Asistencia
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-file-text-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/assignment">Asignación
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <ul class="list-unstyled mb32">
+                                                <li class="btm-li-border">
+                                                    <h5>
+                                                        <strong>
+                                                            Avanzar
+                                                        </strong>
+                                                    </h5>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-book i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/library">Biblioteca</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-line-chart i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/results">Resultado</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-flag i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/events">Evento</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-tachometer i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/dashboard">Tablero
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-pie-chart i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/reporting">Reportando
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-mobile i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/mobile-application">Aplicación movil
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <ul class="list-unstyled mb32">
+                                                <li class="btm-li-border">
+                                                    <h5>
+                                                        <strong>
+                                                            Manejar mejor
+                                                        </strong>
+                                                    </h5>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-building-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/hostel">Hostal</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-cutlery i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/canteen">Cantina</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-bus i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/transportation">Transporte
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-leaf i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/facility">Instalaciones
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-graduation-cap i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/placement">Colocación
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-user i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/parentlogin">Inicio de sesión de los padres
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <ul class="list-unstyled mb32">
+                                                <li class="btm-li-border">
+                                                    <h5>
+                                                        <strong>
+                                                            Comunicar y colaborar
+                                                        </strong>
+                                                    </h5>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-question i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/forum">Foro</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-list-alt i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/survey">Encuesta del foro</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-comments-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/discussion">Discusión
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-newspaper-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/news">Portal de noticias
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-bar-chart i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/poll">Encuesta</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-bullhorn i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/blog">Blog</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <ul class="list-unstyled mb32">
+                                                <li class="btm-li-border">
+                                                    <h5>
+                                                        <strong>
+                                                            Empresa  Nivel ERP
+                                                        </strong>
+                                                    </h5>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-money i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/accounting">Contabilidad
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-area-chart i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/sales">Ventas</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-credit-card i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/payroll">Nómina de sueldos</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-cart-arrow-down i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/purchase">Compra
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-gears i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/stock">Valores</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-male i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/crm">CRM</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <ul class="list-unstyled mb32">
+                                                <div class="text-invisible">
+                                                    <h5>
+                                                        <strong>
+                                                            Empresa
+                                                            Nivel ERP
+                                                        </strong>
+                                                    </h5>
+                                                </div>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-cart-plus i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/ecommerce">E-Commerce
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-paper-plane-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/email-integration">E-mail
+                                                        Integration
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-envelope-o i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/email-marketing">E-mail
+                                                        Marketing
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-check i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/recruitment">Reclutamiento
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-calculator i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/expense">Gastos</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-trophy i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/appraisals">Tasaciones
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <ul class="list-unstyled mb32">
+                                                <li class="btm-li-border">
+                                                    <h5>
+                                                        <strong>
+                                                            Técnico
+                                                            <span
+                                                                class="text-invisible">
+                                                                ERP
+                                                                Caracteristicas
+                                                            </span>
+                                                        </strong>
+                                                    </h5>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-cloud-download i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/on-cloud-on-premise">On Cloud On
+                                                        premisa
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-wrench i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/customizable">Personalizable
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-shield i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/secure">Seguro</a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-language i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/multilingual">Multi
+                                                        Lingual
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-life-ring i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/multi-orgnization-support">Multi
+                                                        Organización
+                                                        Apoyo
+                                                    </a>
+                                                </li>
+                                                <li class="li-bo-border">
+                                                    <i
+                                                        class="fa fa-eur i-bo-pad fa-li-po pr8" />
+                                                    <a
+                                                        href="https://www.openeducat.org/page/features/multi-currency">Multi
+                                                        Moneda
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

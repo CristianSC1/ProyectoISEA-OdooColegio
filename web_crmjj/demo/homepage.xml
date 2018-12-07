@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Banner -->
+        <template inherit_id="website.homepage" id="homepage_inherit">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <section class="s_text_block_image_fw oe_img_bg oe_custom_bg open-banner"
+                         style="background-image: url(/web_crmjj/static/src/img/parallax1.jpg); ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-8 col-xs-8 mt92 mb64">
+                                <h2 style=""
+                                    class="o_default_snippet_text mt32 text-success banner-h2">BIENVENIDOS AL MEJOR COLEGIO DE AREQUIPA
+                                </h2>
+                                <h4 class="o_default_snippet_text mt32 text-success banner-h4"
+                                    style="">Creamos un mundo mejor a través de los valores
+                                </h4>
+                                <a href="#" class="btn btn-primary btn-lg mt16" style="border-radius: 0px;">Empezar</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About school section start -->
+                <section class="mt64 mb64 img-contain">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9 col-sm-12 col-md-offset-2 text-center">
+                                <h3>Las tecnologías modernas exigen el más alto
+                                    nivel de educación.
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row left-xs flow-offset-1 mt48">
+                            <div class="col-md-6 col-sm-12 mt32">
+
+                                <div class="media">
+                                    <div class="media-left col-xs-offset-1">
+                                        <div class=" img-wrap img-circle bg-success">
+                                            <img class="img-circle"
+                                                 src="/web_crmjj/static/src/img/page-1_img01.jpg"
+                                                 alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="media-body inset-1">
+                                        <h4>
+                                            <a href="#">Programas progresivos
+                                            </a>
+                                        </h4>
+                                        <p class="mt32">Los estudiantes de todas las 
+                                        partes del mundo pueden elegir entre más de 230 grados asociados, licenciaturas, maestrías, doctorados en línea.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt32">
+
+                                <div class="media">
+                                    <div class="media-left col-xs-offset-1">
+                                        <div class=" img-wrap img-circle bg-warning">
+                                            <img class="img-circle"
+                                                 src="/web_crmjj/static/src/img/page-1_img02.jpg"
+                                                 alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="media-body inset-1">
+                                        <h4>
+                                            <a href="#">Online<br
+                                                    class="br-lg-on"/>educación
+                                            </a>
+                                        </h4>
+                                        <p class="mt32">Ofreciendo un enfoque único a la educación en línea.
+                                         Obtenga su título de educación en línea en nuestra Universidad. Transforma tu vida a través del poder del aprendizaje.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt32">
+
+                                <div class="media">
+                                    <div class="media-left col-xs-offset-1">
+                                        <div class=" img-wrap img-circle bg-info">
+                                            <img class="img-circle"
+                                                 src="/web_crmjj/static/src/img/page-1_img03.jpg"
+                                                 alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="media-body inset-1">
+                                        <h4>
+                                            <a href="#">Clubs &amp;
+                                                organizaciones
+                                            </a>
+                                        </h4>
+                                        <p class="mt32">Nuestra Universidad es el hogar de más de 70 clubes y organizaciones diseñadas para satisfacer las necesidades únicas de los estudiantes.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt32">
+
+                                <div class="media">
+                                    <div class="media-left col-xs-offset-1">
+                                        <div class=" img-wrap img-circle bg-danger">
+                                            <img class="img-circle"
+                                                 src="/web_crmjj/static/src/img/page-1_img04.jpg"
+                                                 alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="media-body inset-1">
+                                        <h4>
+                                            <a href="#">Oportunidades profesionales
+                                            </a>
+                                        </h4>
+                                        <p class="mt32">Aquí encontrará oportunidades para sobresalir en un entorno académico rico que fomenta el desarrollo y el avance de nuestros empleados.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="well1 bg-variant-1">
+                    <div class="container">
+                        <h3>nuestras admisiones</h3>
+                        <div class="row flow-offset-2 mt48">
+
+                            <div class="col-sm-12 left-sm">
+                                <div class="thumbnail thumbnail-wrap-1">
+                                    <span class="thumbnail_overlay"></span>
+                                    <img src="/web_crmjj/static/src/img/page-1_img05.jpg"
+                                         alt=""/>
+                                    <div class="caption">
+                                        <h5 class="fw-b">
+                                            <a href="#">Admisiones de 
+                                                Pregrado
+                                            </a>
+                                        </h5>
+                                        <p class="h6 text-sec-2">Nuestros programas de estudios de pregrado conducen al asociado o al título de bachiller.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 left-sm">
+                                <div class="thumbnail thumbnail-wrap-2">
+                                    <span class="thumbnail_overlay"></span>
+                                    <img src="/web_crmjj/static/src/img/page-1_img06.jpg"
+                                         alt=""/>
+                                    <div class="caption">
+                                        <h5 class="fw-b">
+                                            <a href="#">Matrícula &amp; Matrícula</a>
+                                        </h5>
+                                        <p class="h6 text-sec-2">Listado de matrículas de pregrado
+                                            y posgrado.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 left-sm">
+                                <div class="thumbnail thumbnail-wrap-2">
+                                    <span class="thumbnail_overlay"></span>
+                                    <img src="/web_crmjj/static/src/img/page-1_img07.jpg"
+                                         alt=""/>
+                                    <div class="caption">
+                                        <h5 class="fw-b">
+                                            <a href="#">Ayuda financiera</a>
+                                        </h5>
+                                        <p class="h6 text-sec-2">¿Necesitas ayuda para 
+                                        pagar la
+                                        universidad?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="well2 parallax">
+                    <div class="parallax_image"
+                         style="background-image: url(&quot;/web_crmjj/static/src/img/parallax2.jpg&quot;); background-color: rgb(19, 31, 37); height: 469px; transform: translate3d(0px, -1.8713px, 0px);"></div>
+                    <div class="parallax_cnt">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col sm-12 col-md-offset-2 text-center">
+                                    <h3>ES POSIBLE RECIBIR EDUCACIÓN
+                                        EN CASA
+                                    </h3>
+                                    <p class="h5">Haz una pregunta a nuestro consultor.
+                                        online
+                                    </p>
+                                    <a href="#"
+                                       class="btn btn-primary btn-md btn-lg mt32"
+                                       style="border-radius: 0px;">
+                                        haga clic aquí
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="well1 bg-variant-1">
+                    <div class="container">
+                        <h3>Los estudiantes actuales</h3>
+                        <div class="row flow-offset-3 text-left mt64">
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-success">
+                                    <img src="/web_crmjj/static/src/img/page-1_img08.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Jane<br
+                                                    class="br-sm-on"/>Nicolson
+                                            </a>
+                                        </h4>
+                                        <p>Estudiante</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-info">
+                                    <img src="/web_crmjj/static/src/img/page-1_img09.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Ronald<br
+                                                    class="br-sm-on"/>Reed
+                                            </a>
+                                        </h4>
+                                        <p>Estudiante</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-primary">
+                                    <img src="/web_crmjj/static/src/img/page-1_img10.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Helen<br
+                                                    class="br-sm-on"/>Tompson
+                                            </a>
+                                        </h4>
+                                        <p>Student</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-success">
+                                    <img src="/web_crmjj/static/src/img/page-1_img11.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Nick<br
+                                                    class="br-sm-on"/>Luis
+                                            </a>
+                                        </h4>
+                                        <p>Estudiante</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-warning">
+                                    <img src="/web_crmjj/static/src/img/page-1_img12.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Jack<br
+                                                    class="br-sm-on"/>Brown
+                                            </a>
+                                        </h4>
+                                        <p>Estudiante</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-variant-3">
+                                    <img src="/web_crmjj/static/src/img/page-1_img13.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Jane<br
+                                                    class="br-sm-on"/>Jefferson
+                                            </a>
+                                        </h4>
+                                        <p>Estudiante</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-success">
+                                    <img src="/web_crmjj/static/src/img/page-1_img14.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Tom<br
+                                                    class="br-sm-on"/>James
+                                            </a>
+                                        </h4>
+                                        <p>Estudiante</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-12 col-md-3 mt32">
+                                <div class="thumbnail-1 bg-warning">
+                                    <img src="/web_crmjj/static/src/img/page-1_img15.jpg"
+                                         alt="" class="img img-responsive"/>
+                                    <div class="caption">
+                                        <h4>
+                                            <a href="#">Ann<br
+                                                    class="br-sm-on"/>Nelson
+                                            </a>
+                                        </h4>
+                                        <p>Estudiante</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="well1 bg-variant-2">
+                    <div class="container">
+                        <h3 class="text-center mb64">Últimas noticias</h3>
+
+                        <div class="news-post left-xs">
+                            <div class="row mb32">
+
+                                <div class="col-sm-2  right-sm inset-3">
+                                    <time datetime="10-18">18 octubre</time>
+                                </div>
+
+                                <div class="col-sm-10 ">
+                                    <div class="media">
+                                        <div class=" media-left">
+                                            <div class="img-wrap img-circle bg-variant-1">
+                                                <img class="img-circle"
+                                                     src="/web_crmjj/static/src/img/page-1_img16.jpg"
+                                                     alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="media-body inset-2"
+                                             style="padding-left: 24px;">
+                                            <h4 class="fw-b">Estudiantes
+                                                Internacionales
+                                            </h4>
+                                            <p class="text-sec-3">by
+                                                <span class="text-danger mt16"
+                                                      style="font-weight: bold;">
+                                                    Mark Johnson
+                                                </span>
+                                            </p>
+                                            <p class="mb32">Muchos estudiantes tienen escasez de efectivo,
+                                             hoy en día. Sin embargo, su poder adquisitivo es muy alto.
+                                            Las investigaciones revelan que 20 millones de estudiantes
+                                            en los Estados Unidos tienen un ingreso disponible combinado 
+                                            de $ 417 mil millones.
+                                            </p>
+                                            <a href="#" class="btn-link">Leer
+                                                mas
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row mb32">
+                                <div class="col-sm-2 right-sm inset-3">
+                                    <time datetime="03-24">24 marzo</time>
+                                </div>
+
+                                <div class="col-sm-10">
+                                    <div class="media">
+                                        <div class=" media-left">
+                                            <div class="img-wrap img-circle bg-variant-1">
+                                                <img class="img-circle"
+                                                     src="/web_crmjj/static/src/img/page-1_img17.jpg"
+                                                     alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="media-body inset-2"
+                                             style="padding-left: 24px;">
+                                            <h4 class="fw-b">Las redes sociales son método de socialización.
+                                            </h4>
+                                            <p class="text-sec-3">by
+                                                <span class="text-danger mt16"
+                                                      style="font-weight: bold;">
+                                                    Barbara Powell
+                                                </span>
+                                            </p>
+                                            <p class="mb32">Los estudiantes son la mayoría de los usuarios
+                                             de redes sociales como Facebook y Twitter. 
+                                             Estos son los lugares correctos para presentar marcas a los jóvenes. 
+                                             Probablemente sea el lugar correcto para presentarles una marca. 
+                                             Para captar la audiencia de los estudiantes, es esencial ser parte 
+                                             de la conversación.
+                                            </p>
+                                            <a href="#" class="btn-link">Leer
+                                                mas
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb32">
+                                <div class="col-sm-2 right-sm inset-3">
+                                    <time datetime="01-11">11 Enero</time>
+                                </div>
+
+                                <div class="col-sm-10">
+                                    <div class="media">
+                                        <div class=" media-left">
+                                            <div class="img-wrap img-circle bg-variant-1">
+                                                <img class="img-circle"
+                                                     src="/web_crmjj/static/src/img/page-1_img18.jpg"
+                                                     alt=""/>
+                                            </div>
+                                        </div>
+                                        <div class="media-body inset-2"
+                                             style="padding-left: 24px;">
+                                            <h4 class="fw-b">Estudiante nuevo
+                                                orientación
+                                            </h4>
+                                            <p class="text-sec-3">by
+                                                <span class="text-danger mt16"
+                                                      style="font-weight: bold;">
+                                                    Laura Bailey
+                                                </span>
+                                            </p>
+                                            <p class="mb32">El nuevo programa de orientación para estudiantes 
+                                            de nuestra Universidad para estudiantes de primer año es una oportunidad maravillosa
+                                             para que los estudiantes prosperen académicamente, crezcan personalmente
+                                              y se involucren socialmente, para ser los primeros en su camino hacia el éxito. 
+                                            Estamos aquí para ayudarte a tener éxito en tu transición.
+                                            </p>
+                                            <a href="#" class="btn-link">Leer
+                                                mas
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="testimonials">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div
+                                    class="col-md-12 col-sm-12 col-xs-12 testimonial-bg pad60">
+                                <div class="mb32 white text-left">
+                                    <h2 class="section-title text-white">
+                                        Testimonios de los padres
+                                        <span>Lorem ipsum dolor sit amet
+                                        </span>
+                                    </h2>
+                                </div>
+                                <div id="testimonial_carousel"
+                                     class="carousel slide col-md-12"
+                                     data-ride="carousel"
+                                     style="height: 350px;">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#testimonial_carousel"
+                                            data-slide-to="0"
+                                            class="active"></li>
+                                        <li data-target="#testimonial_carousel"
+                                            data-slide-to="1"></li>
+                                        <li data-target="#testimonial_carousel"
+                                            data-slide-to="2"></li>
+
+                                    </ol>
+
+                             <!--      &lt;!&ndash; Wrapper for slides &ndash;&gt;--> 
+                                    <div class="carousel-inner">
+                                        <div class="item active quote">
+                                            <blockquote>
+                                                <p class="text-white">"Denim
+                                                 del que probablemente no hayas oído hablar. 
+                                                 Lorem ipsum dolor se reunió con el consultor de sentarse, 
+                                                 el consectetur, elit, de ellos jean shorts sedmagna aliqua. 
+                                                 Lorem ipsum dolor conocido."
+                                                </p>
+                                            </blockquote>
+                                            <div class="author-info">
+                                                <img alt=""
+                                                     src="/web_crmjj/static/src/img/thumb-01.jpg"
+                                                     class="pull-left img img-responsive"/>
+                                                <div class="quote-author">
+                                                    <h5 class="name">
+                                                        <a href="#"
+                                                           class="text-white">
+                                                            John
+                                                            Mathew
+                                                        </a>
+                                                    </h5>
+                                                    <span>/ Padre
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="item quote">
+                                            <blockquote>
+                                                <p class="text-white">"Denim
+                                                 del que probablemente no hayas oído hablar. 
+                                                 Lorem ipsum dolor se reunió con el consultor de sentarse, 
+                                                 el consectetur, elit, de ellos jean shorts sedmagna aliqua. 
+                                                 Lorem ipsum dolor conocido."
+                                                </p>
+                                            </blockquote>
+                                            <div class="author-info">
+                                                <img alt=""
+                                                     src="/web_crmjj/static/src/img/thumb-02.jpg"
+                                                     class="pull-left img img-responsive"/>
+                                                <div class="quote-author">
+                                                    <h5 class="name">
+                                                        <a href="#"
+                                                           class="text-white">
+                                                            Aslam
+                                                            Hasib
+                                                        </a>
+                                                    </h5>
+                                                    <span>/ Padre
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="item quote">
+                                            <blockquote>
+                                                <p class="text-white">"Denim
+                                                 del que probablemente no hayas oído hablar. 
+                                                 Lorem ipsum dolor se reunió con el consultor de sentarse, 
+                                                 el consectetur, elit, de ellos jean shorts sedmagna aliqua. 
+                                                 Lorem ipsum dolor conocido."
+                                                </p>
+                                            </blockquote>
+                                            <div class="author-info">
+                                                <img alt=""
+                                                     src="/web_crmjj/static/src/img/thumb-03.jpg"
+                                                     class="pull-left img img-responsive"/>
+                                                <div class="quote-author">
+                                                    <h5 class="name">
+                                                        <a href="#"
+                                                           class="text-white">
+                                                            Baldwin
+                                                            Dallas
+                                                        </a>
+                                                    </h5>
+                                                    <span>/ Padre
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 pad60">
+                                <div class="area-headding mb32">
+                                    <h2 class="section-title">
+                                        Eventos
+                                        <span>Próximos eventos educativos
+                                         para alimentar tu cerebro.
+                                        </span>
+                                    </h2>
+                                </div>
+                                <div id="event_carousel"
+                                     class="carousel slide col-md-12"
+                                     data-ride="carousel"
+                                     style="height: 350px;">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#event_carousel"
+                                            data-slide-to="0"
+                                            class="active"></li>
+                                        <li data-target="#event_carousel"
+                                            data-slide-to="1"></li>
+
+                                    </ol>
+
+                                   <!-- &lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+
+                                            <div
+                                                    class="col-md-12 col-xs-12 col-sm-12 mb8">
+                                                <div
+                                                        class="col-md-3 col-xs-12 col-sm-12">
+                                                    <div class="text-center">
+                                                        <h2 class="date-event">
+                                                            28
+                                                            <span>MAYO
+                                                            </span>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                        class="col-md-9 col-xs-12 col-sm-12 post-detail">
+                                                    <h3>
+                                                        <a href="#">Mercado
+                                                            Breve
+                                                            Educacion
+                                                        </a>
+                                                    </h3>
+                                                    <div class="meta">
+                                                        <div class="time">
+                                                            <i
+                                                                    class="fa fa-clock-o pr8"></i>
+                                                            8:00 am -
+                                                            5:00 pm
+                                                        </div>
+                                                        <div class="location">
+                                                            <i
+                                                                    class="fa fa-map-marker pr8"></i>
+                                                            Chicago, US
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt8">Lorem
+                                                        ipsum dolor sit
+                                                        amet, contetur
+                                                        adipiscing
+                                                        elit.
+                                                        Sed
+                                                        id tellus in
+                                                        diam tempus
+                                                        euismod.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                    class="col-md-12 col-xs-12 col-sm-12 mb8 item-event">
+                                                <div
+                                                        class="col-md-3 col-xs-12 col-sm-12">
+                                                    <div class="text-center">
+                                                        <h2 class="date-event">
+                                                            17
+                                                            <span>AUGUST
+                                                            </span>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                        class="col-md-9 col-xs-12 col-sm-12 post-detail">
+                                                    <h3>
+                                                        <a href="#">Network
+                                                            Webinars
+                                                        </a>
+                                                    </h3>
+                                                    <div class="meta">
+                                                        <div class="time">
+                                                            <i
+                                                                    class="fa fa-clock-o pr8"></i>
+                                                            8:00 am -
+                                                            5:00 pm
+                                                        </div>
+                                                        <div class="location">
+                                                            <i
+                                                                    class="fa fa-map-marker pr8"></i>
+                                                            Chicago, US
+                                                        </div>
+                                                    </div>
+
+                                                    <p class="mt8">Lorem
+                                                        ipsum dolor sit
+                                                        amet, contetur
+                                                        adipiscing
+                                                        elit.
+                                                        Sed
+                                                        id tellus in
+                                                        diam tempus
+                                                        euismod.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+
+                                            <div
+                                                    class="col-md-12 col-xs-12 col-sm-12 mb8">
+                                                <div
+                                                        class="col-md-3 col-xs-12 col-sm-12">
+                                                    <div class="text-center">
+                                                        <h2 class="date-event">
+                                                            23
+                                                            <span>SEPTEMBER
+                                                            </span>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                        class="col-md-9 col-xs-12 col-sm-12 post-detail">
+                                                    <h3>
+                                                        <a href="#">Adventure
+                                                            Cirriculum
+                                                        </a>
+                                                    </h3>
+                                                    <div class="meta">
+                                                        <div class="time">
+                                                            <i
+                                                                    class="fa fa-clock-o pr8"></i>
+                                                            8:00 am -
+                                                            5:00 pm
+                                                        </div>
+                                                        <div class="location">
+                                                            <i
+                                                                    class="fa fa-map-marker pr8"></i>
+                                                            Chicago, US
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt8">Lorem
+                                                        ipsum dolor sit
+                                                        amet, contetur
+                                                        adipiscing
+                                                        elit.
+                                                        Sed
+                                                        id tellus in
+                                                        diam tempus
+                                                        euismod.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                    class="col-md-12 col-xs-12 col-sm-12 mb8 item-event">
+                                                <div
+                                                        class="col-md-3 col-xs-12 col-sm-12">
+                                                    <div class="text-center">
+                                                        <h2 class="date-event">
+                                                            08
+                                                            <span>JULY
+                                                            </span>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                        class="col-md-9 col-xs-12 col-sm-12 post-detail">
+                                                    <h3>
+                                                        <a href="#">Advanced
+                                                            Placement
+                                                        </a>
+                                                    </h3>
+                                                    <div class="meta">
+                                                        <div class="time">
+                                                            <i
+                                                                    class="fa fa-clock-o pr8"></i>
+                                                            8:00 am -
+                                                            5:00 pm
+                                                        </div>
+                                                        <div class="location">
+                                                            <i
+                                                                    class="fa fa-map-marker pr8"></i>
+                                                            Chicago, US
+                                                        </div>
+                                                    </div>
+
+                                                    <p class="mt8">Lorem
+                                                        ipsum dolor sit
+                                                        amet, contetur
+                                                        adipiscing
+                                                        elit.
+                                                        Sed
+                                                        id tellus in
+                                                        diam tempus
+                                                        euismod.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </xpath>
+        </template>
+    </data>
+</odoo>

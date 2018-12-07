@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <report 
+        id="action_report_fees_detail_analysis"
+        model="op.student"
+        string="Análisis de detalle de tarifas"
+        report_type="qweb-pdf"
+        name="crmjj_fees.report_fees_analysis"
+        file="crmjj_fees.report_fees_analysis"
+        menu="False" />
+
+</odoo>

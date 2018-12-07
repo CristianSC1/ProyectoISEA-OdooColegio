@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <template id="footer_custom1" inherit_id="website.layout"
+            name="Openeducat Footer">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div class="oe_structure" id="footer" style="padding-top:0px;">
+                    <section class="footer-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 mt32 mb32">
+                                    <div class="col-md-4">
+
+                                        <div
+                                            class="text-white footer-title mb16">
+                                            <h3>Sobre Nosotros</h3>
+                                        </div>
+
+                                        <div class="footer-text text-white">
+                                            <p>Crear valor a través de desarrollos económicos, sociales y ambientales, al mismo tiempo que es un proveedor de educación de clase mundial de una manera que está arraigada a nivel nacional, reconocida regionalmente y relevante a nivel mundial.
+                                            </p>
+                                            <p>Para fomentar una cultura en la que las ideas originales se generan a través de un fuerte acento en la innovación, la investigación, la erudición, la creatividad y la investigación.
+                                                <br />
+                                                <a
+                                                    href="#"
+                                                    class="btn btn-default text-white">aprendiendo 
+                                                    ahora
+                                                </a>
+                                            </p>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+
+                                        <div
+                                            class="text-white footer-title mb16">
+                                            <h3>enlaces rápidos</h3>
+                                        </div>
+                                        <ul class="style_1 mt0 mb8">
+                                            <li
+                                                class="page_item page-item-1217">
+                                                <a href="#">
+                                                    <span class="text-white">NeNuevows &amp; Evento
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="page_item page-item-1376">
+                                                <a href="#">
+                                                    <span class="text-white">Admision
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="page_item page-item-779">
+                                                <a href="#">
+                                                    <span class="text-white">Carreras 
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="page_item page-item-779">
+                                                <a href="#">
+                                                    <span class="text-white">Académica
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="page_item page-item-779">
+                                                <a href="#">
+                                                    <span class="text-white">Alumnos &amp; Amigos
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+
+                                        <div
+                                            class="text-white footer-title mb16">
+                                            <h3>Contáctenos</h3>
+                                        </div>
+                                        <ul class="footer-contact">
+                                            <li>
+                                                <div class="icon pr8">
+                                                    <i
+                                                        class="fa fa-map-marker"
+                                                        aria-hidden="true"></i>
+                                                </div>
+                                                <div class="text text-white">1725
+                                                    Miraflores Ave. porvenir
+                                                    Arequipa
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon pr8">
+                                                    <i class="fa fa-phone"></i>
+                                                </div>
+                                                <div class="text text-white">+054 983084863
+                                                    
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon pr8">
+                                                    <i class="fa fa-print "></i>
+                                                </div>
+                                                <div class="text text-white">+054 983084863
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon pr8">
+                                                    <i class="fa fa-envelope"></i>
+                                                </div>
+                                                <div class="text text-white">
+                                                    <a href="#"
+                                                        class="text-white">pitagoras@gmail.com
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
